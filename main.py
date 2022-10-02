@@ -7,7 +7,7 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
 
 root = Tk()
-root.title('TechVidvan Text from image project') 
+root.title('Image text extractor') 
 
 newline= Label(root)
 uploaded_img=Label(root)

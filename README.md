@@ -1,1 +1,1 @@
-# image-text-extractor
+# Image Text Extractor

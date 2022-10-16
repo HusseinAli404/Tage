@@ -1,6 +1,4 @@
 
-
-def upload():
     try:
         path=filedialog.askopenfilename()
         image=Image.open(path)

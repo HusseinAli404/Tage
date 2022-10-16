@@ -1,7 +1,4 @@
-:
-                print(mytext)
-                Label(root,text=mytext,font=('Times',15,'bold')).pack()
-                mytext=""
+
             mytext = mytext + text[11]+" "
             prevy=y
     Label(root,text=mytext,font=('Times',15,'bold')).pack()

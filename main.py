@@ -1,7 +1,4 @@
 
-    mytext=""
-    prevy=0
-    for cnt,text in enumerate(texts.splitlines()):
         if cnt==0:
             continue
         text = text.split()

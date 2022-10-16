@@ -1,5 +1,3 @@
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
-
 root = Tk()
 root.title('Image text extractor') 
 

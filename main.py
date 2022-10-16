@@ -1,7 +1,4 @@
 
-        if len(text)==12:
-            x,y,w,h = int(text[6]),int(text[7]),int(text[8]),int(text[9])
-            if(len(mytext)==0):
                 prey=y
             if(prevy-y>=10 or y-prevy>=10):
                 print(mytext)

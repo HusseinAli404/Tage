@@ -1,6 +1,3 @@
-root = Tk()
-root.title('Image text extractor') 
-
 newline= Label(root)
 uploaded_img=Label(root)
 scrollbar = Scrollbar(root)

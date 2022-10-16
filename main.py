@@ -1,5 +1,4 @@
-def extract(path):
-    Actual_image = cv2.imread(path)
+
     Sample_img = cv2.resize(Actual_image,(400,350))
     Image_ht,Image_wd,Image_thickness = Sample_img.shape
     Sample_img = cv2.cvtColor(Sample_img,cv2.COLOR_BGR2RGB)

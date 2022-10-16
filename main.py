@@ -1,7 +1,4 @@
 
-            mytext = mytext + text[11]+" "
-            prevy=y
-    Label(root,text=mytext,font=('Times',15,'bold')).pack()
 
 def show_extract_button(path):
     extractBtn= Button(root,text="Extract text",command=lambda: extract(path),bg="#2f2f77",fg="gray",pady=15,padx=15,font=('Times',15,'bold'))

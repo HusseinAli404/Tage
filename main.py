@@ -1,6 +1,4 @@
 
-    Sample_img = cv2.cvtColor(Sample_img,cv2.COLOR_BGR2RGB)
-    texts = pytesseract.image_to_data(Sample_img) 
     mytext=""
     prevy=0
     for cnt,text in enumerate(texts.splitlines()):

@@ -1,10 +1,4 @@
 
-    try:
-        path=filedialog.askopenfilename()
-        image=Image.open(path)
-        img=ImageTk.PhotoImage(image)
-        uploaded_img.configure(image=img)
-        uploaded_img.image=img
         show_extract_button(path)
     except:
         pass  

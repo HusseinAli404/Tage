@@ -1,4 +1,3 @@
-newline= Label(root)
 uploaded_img=Label(root)
 scrollbar = Scrollbar(root)
 scrollbar.pack( side = RIGHT, fill = Y )

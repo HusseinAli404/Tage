@@ -1,9 +1,5 @@
 
 
-def show_extract_button(path):
-    extractBtn= Button(root,text="Extract text",command=lambda: extract(path),bg="#2f2f77",fg="gray",pady=15,padx=15,font=('Times',15,'bold'))
-    extractBtn.pack()
-
 def upload():
     try:
         path=filedialog.askopenfilename()

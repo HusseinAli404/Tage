@@ -1,6 +1,4 @@
-
-                prey=y
-            if(prevy-y>=10 or y-prevy>=10):
+:
                 print(mytext)
                 Label(root,text=mytext,font=('Times',15,'bold')).pack()
                 mytext=""

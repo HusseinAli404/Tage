@@ -1,5 +1,4 @@
 
-    Image_ht,Image_wd,Image_thickness = Sample_img.shape
     Sample_img = cv2.cvtColor(Sample_img,cv2.COLOR_BGR2RGB)
     texts = pytesseract.image_to_data(Sample_img) 
     mytext=""

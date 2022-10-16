@@ -1,7 +1,3 @@
-scrollbar = Scrollbar(root)
-scrollbar.pack( side = RIGHT, fill = Y )
-
-
 def extract(path):
     Actual_image = cv2.imread(path)
     Sample_img = cv2.resize(Actual_image,(400,350))
